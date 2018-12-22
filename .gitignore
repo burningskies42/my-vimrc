@@ -1,0 +1,6 @@
+.bashrc
+.cache/*
+.local/*
+.profile
+snap/*
+
