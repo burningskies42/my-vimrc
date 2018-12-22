@@ -6,6 +6,7 @@
 :set number
 :set showcmd
 :set cursorline
+:set wildmenu
 
 " plugins
 call plug#begin()
