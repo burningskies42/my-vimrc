@@ -11,7 +11,13 @@
 " plugins
 call plug#begin()
 Plug 'sjl/badwolf'
+Plug 'rkulla/pydiction'
+
 call plug#end()
 
 " colors
 colorscheme badwolf
+
+"clone plugin-mangager and pydiction from github
+filetype plugin on
+let g:pydiction_location = '/home/leon/.vim/plugged/pydiction/complete-dict'
